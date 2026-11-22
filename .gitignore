@@ -1,0 +1,20 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Secrets (NEVER commit kaggle.json)
+kaggle.json
+.env
+
+# Large Datasets & Model Checkpoints
+nih_dataset/
+*.pth
+*.pt
+*.onnx
+*.zip
