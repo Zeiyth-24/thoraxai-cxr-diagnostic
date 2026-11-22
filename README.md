@@ -2,7 +2,9 @@
 
 An end-to-end Computer-Aided Diagnosis (CAD) pipeline for simultaneous multi-label detection of **14 thoracic pathologies** from frontal chest radiographs (**NIH ChestX-ray14**), built with **DenseNet-121**, **Patient-Aware Splitting**, **Weighted BCE**, **Grad-CAM Explainable AI**, and an interactive **Gradio** interface.
 
-![ThoraxAI Architecture](./assets/00_thoraxai_architecture.png)
+![ThoraxAI Training Pipeline Mindmap](./assets/00a_thoraxai_training_mindmap.png)
+
+![ThoraxAI Explainability and Inference Mindmap](./assets/00b_thoraxai_inference_mindmap.png)
 
 ## Key Highlights
 - **Hospital-Scale Dataset:** Trained and evaluated on **NIH ChestX-ray14** (112,120 radiographs across 30,805 unique patients, 14 multi-label pathologies).
