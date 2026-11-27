@@ -24,28 +24,6 @@ An end-to-end Computer-Aided Diagnosis (CAD) pipeline for simultaneous multi-lab
 | 4 | 0.8470 | 0.9613 | 0.8301 |
 | **5** | **0.8013** | **0.9550** | **0.8326** |
 
-## Per-Class Validation Metrics (14 Pathologies: ROC-AUC & PR-AUC)
-
-Run `python -m src.evaluate_metrics --dataset-dir ./nih_dataset --model-path weights/thoraxai_model.pth` against the patient-aware validation split (`22,294` images across `6,161` unique patients) to populate the table below:
-
-| Pathology | Validation Positives | Prevalence (%) | ROC-AUC | PR-AUC |
-| :--- | :---: | :---: | :---: | :---: |
-| `Atelectasis` | TBD | TBD | TBD | TBD |
-| `Cardiomegaly` | TBD | TBD | TBD | TBD |
-| `Effusion` | TBD | TBD | TBD | TBD |
-| `Infiltration` | TBD | TBD | TBD | TBD |
-| `Mass` | TBD | TBD | TBD | TBD |
-| `Nodule` | TBD | TBD | TBD | TBD |
-| `Pneumonia` | TBD | TBD | TBD | TBD |
-| `Pneumothorax` | TBD | TBD | TBD | TBD |
-| `Consolidation` | TBD | TBD | TBD | TBD |
-| `Edema` | TBD | TBD | TBD | TBD |
-| `Emphysema` | TBD | TBD | TBD | TBD |
-| `Fibrosis` | TBD | TBD | TBD | TBD |
-| `Pleural_Thickening` | TBD | TBD | TBD | TBD |
-| `Hernia` | TBD | TBD | TBD | TBD |
-| **Macro Mean (14 Classes)** | - | - | **0.8326** *(Val Epoch 5)* | **TBD** |
-
 ## Zero-Shot Spatial Resolution Trade-Off (`Nodule`)
 
 To study the accuracy-latency trade-off for small focal lesions (`Nodule`), the 224x224-trained model was evaluated zero-shot across four input resolutions on a 500-image validation subset:
