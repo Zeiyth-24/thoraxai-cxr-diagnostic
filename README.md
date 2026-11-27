@@ -1,9 +1,6 @@
 # ThoraxAI: Multi-Label Chest X-Ray Diagnostic Engine
 
-<!-- Replace YOUR_HF_USERNAME/thoraxai-cxr-diagnostic with your deployed Hugging Face Space slug -->
-[![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Live%20Demo%20(Placeholder)-blue?logo=huggingface)](https://huggingface.co/spaces/YOUR_HF_USERNAME/thoraxai-cxr-diagnostic)
-
-An end-to-end Computer-Aided Diagnosis (CAD) pipeline for simultaneous multi-label detection of **14 thoracic pathologies** from frontal chest radiographs (**NIH ChestX-ray14**), built with **DenseNet-121**, **Patient-Aware Splitting**, **Weighted BCE**, **Grad-CAM Explainable AI**, and an interactive **Gradio** interface ready for Hugging Face Spaces (CPU Basic).
+An end-to-end Computer-Aided Diagnosis (CAD) pipeline for simultaneous multi-label detection of **14 thoracic pathologies** from frontal chest radiographs (**NIH ChestX-ray14**), built with **DenseNet-121**, **Patient-Aware Splitting**, **Weighted BCE**, **Grad-CAM Explainable AI**, and an interactive **Gradio** interface.
 
 ![ThoraxAI Training Pipeline Mindmap](./assets/00a_thoraxai_training_mindmap.png)
 
